@@ -1,0 +1,95 @@
+* 
+{
+    /*border: 1px solid red;*/
+}
+
+body 
+{
+    background-color: #fff;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: .9em;
+}
+
+#content 
+{
+    margin: 30px auto;
+}
+
+#canvasarea 
+{
+    margin: 10px auto;
+    text-align: center;
+}
+
+#myCanvas 
+{
+    background: #666;
+}
+
+#info 
+{
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#clear, #reverse, #readme
+{
+    width: 100px;
+    border: 1px solid #999;
+    text-align: center;
+    margin: 5px auto;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#dialog 
+{
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#nav 
+{
+    margin-top: 20px;   
+    padding: 0;  /*override user agent padding */ 
+}
+@media all and (max-width: 340px) 
+{
+
+    #clear, #reverse, #readme 
+    {
+        width: 90px;
+        font-size: .8em;
+    }
+}
+
+@media all and (max-width: 400px) 
+{
+    #content
+    {
+        margin: 10px auto 0;
+    }    
+}    
+/* 
+     #content 
+    {
+        margin: 0px auto;
+    }
+    #nav 
+    {
+        margin-top: 0px;   
+    }
+    
+    body 
+    {
+        font-size: .7em;
+    }
+   */
+}

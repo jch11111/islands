@@ -1,0 +1,17 @@
+Welcome to Islands!
+
+Click on the grid to toggle a square from sea to land.
+
+Black squares are water, white squares are land.
+
+Land squares that touch eachother are islands. The number of islands is displayed.
+
+To create one or more lakes, create a large island, then turn some of the squares
+within the island to water.
+
+Sea shores have a green border. Lake shores have a blue border.
+
+The clear button resets the grid.
+The reverse button switches all land to water and all water to land.
+
+The grid is represented in code as an undirected graph. Click here for more information.

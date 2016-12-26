@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Islands</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <script src="scripts/jquery-1.11.2.min.js"></script>
+    <script src="scripts/jcanvas.js"></script>
+    <script src="scripts/jqueryui/jquery-ui.min.js"></script>
+    <link rel="Stylesheet" href="styles/islands.css" />
+    <link rel="stylesheet" href="scripts/jqueryui/jquery-ui.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <div id="content">
+
+        <div id="info">
+            <div><label>Islands: </label><span id="count"></span> - <label>Lakes: </label><span id="lakecount"></span></div>
+            <div>Diagonal Islands<input id="diagonals" type="checkbox"></div>
+
+            <ul id="nav">
+                <li id="clear" class="noselect">Clear</li>
+                <li id="reverse" class="noselect">Reverse</li>
+                <li id="readme" class="noselect">Read Me</li>
+            </ul>
+            <div id="canvasarea">
+                <canvas id="myCanvas" width="350" height="350">Canvas not supported</canvas>
+            </div>
+            
+        </div>
+    </div>
+    <div id="dialog" title="Welcome to Islands!">
+        <p>Click on the grid to toggle a square from water to land.</p>
+        <p>Black squares are water, white squares are land.</p>
+        <p>Adjacent groups of land squares form an island. Two squares are adjacent if they are horizontal or vertical neighbors. When 'Diagonal Islands' is clicked, diagonal neighbors are also considered adjacent. </p>
+        <p>Lakes are adjacent groups of water squares that are surrounded by land. Lakes are bordered in blue.</p>
+        <p>The number of islands and lakes is displayed.</p>
+        <p>The clear button resets the grid.
+        <p>The reverse button switches all land to water and all water to land.</p>
+        <p>Click <a href="../islands_about/islands_about.htm" target="_blank">here</a> for more information.</p>
+    </div>
+
+
+
+    <script src="scripts/islands.js"></script>
+</body>
+
+</html>
+
+
